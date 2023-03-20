@@ -1,8 +1,6 @@
-export const ADDON_ID = "storybook/my-addon";
+export const ADDON_ID = "misskey-dev/storybook-addon-misskey-theme";
 export const TOOL_ID = `${ADDON_ID}/tool`;
-export const PANEL_ID = `${ADDON_ID}/panel`;
-export const TAB_ID = `${ADDON_ID}/tab`;
-export const PARAM_KEY = `myAddonParameter`;
+export const PARAM_KEY = `misskeyTheme`;
 
 export const EVENTS = {
   RESULT: `${ADDON_ID}/result`,

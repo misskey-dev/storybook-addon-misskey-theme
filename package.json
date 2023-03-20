@@ -1,13 +1,13 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-misskey-theme",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": " A Storybook addon for applying Misskey themes ",
   "keywords": [
     "storybook-addons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/misskey-dev/storybook-addon-misskey-theme.git"
   },
   "author": "package-author",
   "license": "MIT",
@@ -45,7 +45,7 @@
     "build": "tsup",
     "build:watch": "yarn build --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"yarn build:watch\" \"yarn storybook --quiet\"",
+    "start": "concurrently \"yarn build:watch\" \"yarn storybook --quiet --no-open\"",
     "prerelease": "zx scripts/prepublish-checks.mjs",
     "release": "yarn build && auto shipit",
     "eject-ts": "zx scripts/eject-typescript.mjs",
