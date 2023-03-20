@@ -5,3 +5,7 @@ build-storybook.log
 .DS_Store
 .env
 .yarn
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
