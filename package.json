@@ -39,7 +39,7 @@
     "*.d.ts"
   ],
   "scripts": {
-    "postinstall": "yarn build",
+    "postinstall": "yarn build || :",
     "clean": "rimraf ./dist",
     "prebuild": "yarn clean",
     "build": "tsup",
